@@ -1,27 +1,27 @@
 <template>
   <section id="footer">
-    <div class="item">
-      <Email/>
+    <div class="item" title='GitHub'>
+      <a href="https://github.larien.dev" target="_blank"><GitHub/></a>
     </div>
-    <div class="item">
-      <LinkedIn/>
+    <div class="item" title='LinkedIn'>
+      <a href="https://linkedin.larien.dev" target="_blank"><LinkedIn/></a>
     </div>
-    <div class="item">
-      <Twitter/>
+    <div class="item" title='Twitter'>
+      <a href="https://twitter.larien.dev" target="_blank"><Twitter/></a>
     </div>
   </section> 
 </template>
 
 <script>
-import Email from '../social/Email.vue';
+import GitHub from '../social/GitHub.vue';
 import LinkedIn from '../social/LinkedIn.vue';
 import Twitter from '../social/Twitter.vue';
 
 export default {
   components: {
-    Email,
+    GitHub,
     LinkedIn,
-    Twitter
+    Twitter,
   }
 }
 </script>
