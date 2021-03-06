@@ -26,11 +26,8 @@ export default {
 
 <style scoped>
 .button {
-    height: 100%;
-    width: 100%;
     border-radius: 10px;
     cursor: pointer;
-    margin: 10px;
     transition: 0.3s;
 }
 .button:hover {

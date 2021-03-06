@@ -22,14 +22,16 @@ export default {
 </script>
 
 <style>
+html {
+  background-color: #14213D; /* TODO: darkmode */
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'RocknRoll One', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   display: flex;
-	min-height: 100vh;
-  background-color: #14213D; /* TODO: darkmode */
+	height: 100vh;
 	flex-direction: column;
 }
 

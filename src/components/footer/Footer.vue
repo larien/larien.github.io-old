@@ -9,6 +9,7 @@
     <div class="item" title='Twitter'>
       <a href="https://twitter.larien.dev" target="_blank"><Twitter/></a>
     </div>
+    <p>© 2021 Lauren Ferreira</p>
   </section> 
 </template>
 
@@ -32,11 +33,21 @@ export default {
   height: 100px;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
 }
+
 .item {
-  height: 80px;
-  width: 80px;
+  height: 70px;
+  width: 70px;
   margin: 10px;
+}
+
+p {
+  position: absolute;
+  bottom: 0px;
+  margin: 10px;
+  left: 0px;
+  color: rgb(190, 190, 190);
+  font-size: 70%;
+  cursor: default;
 }
 </style>
