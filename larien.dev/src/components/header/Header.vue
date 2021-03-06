@@ -1,17 +1,17 @@
 <template>
   <section id="header">
     <div class="item">
-      <a class="logo"><img src='../../../public/logo.svg' title='I´m the Avatar and you gotta deal with it!'/></a>
+      <a class="logo"><img src='../../../public/logo.svg' title="I'm the Avatar and you gotta deal with it!"/></a>
     </div>
     <div class="social">
-      <div class="item" title='Notion'>
+      <div class="item" title="Aprenda Go com Testes">
+        <a href="https://go.larien.dev" target="_blank"><Go/></a>
+      </div>
+      <div class="item" title="Notion">
         <a href="https://notion.larien.dev" target="_blank"><Notion/></a>
       </div>
-      <div class="item" title='Blog'>
+      <div class="item" title="Blog">
         <a href="https://blog.larien.dev" target="_blank"><Blog/></a>
-      </div>
-      <div class="item" title='Aprenda Go com Testes'>
-        <a href="https://go.larien.dev" target="_blank"><Go/></a>
       </div>
     </div>
     <div class="options">

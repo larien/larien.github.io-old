@@ -34,7 +34,7 @@ export default {
     transition: 0.3s;
 }
 .button:hover {
-    background-color: #29BEB0;
+    background-color: #00acd7;
     opacity: 1;
 }
 svg {
