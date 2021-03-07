@@ -2,11 +2,11 @@
   <section id="body">
     <h1>
       <p>Hello!</p>
-      <p>My name is <span>Lauren</span> and I'm</p>
+      <p>My name is <span title="aka larienmf">Lauren</span> and I'm</p>
     </h1>
     <typewriter/>
     <h1>
-      <p>based in <span>Florianópolis</span>, <span>Brazil</span>.</p>
+      <p>based in <span title="the magic island!">Florianópolis</span>, <span title="#ELENÃO">Brazil</span>.</p>
     </h1>
   </section>
 </template>

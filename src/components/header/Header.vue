@@ -1,7 +1,7 @@
 <template>
   <section id="header">
     <div class="item">
-      <a class="logo"><img src='../../../public/logo.svg' title="I'm the Avatar and you gotta deal with it!"/></a>
+      <a href="https://www.notion.so/larienmf/larien-dev-ecfa0060ecf7499891048570649be970"  target="_blank" class="logo"><img src='../../../public/logo.svg' title="I'm the Avatar and you gotta deal with it!"/></a>
     </div>
     <div class="social">
       <div class="item" title="Aprenda Go com Testes">
@@ -15,6 +15,7 @@
       </div>
     </div>
     <div class="options">
+      <div class="item"></div>
     </div>
   </section>
 </template>
