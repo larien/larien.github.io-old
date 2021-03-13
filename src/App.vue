@@ -23,7 +23,7 @@ export default {
 
 <style>
 html {
-  background-color: #14213D; /* TODO: darkmode */
+  background-color: #002538; /* TODO: darkmode */
 }
 #app {
   font-family: 'RocknRoll One', sans-serif;
