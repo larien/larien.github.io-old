@@ -16,11 +16,13 @@ import { setTimeout } from 'timers';
         typeStatus: false,
         typeArray: [
             'a Korra fangirl',
-            'a software developer',
+            'a software development engineer',
             'an amazon in training',
+            'an overexcited dev',
             'a Golang developer',
             'a motorcycle traveller',
-            'a dog mom'
+            'a dog mom',
+            'a tattoo addict'
             ],
         typingSpeed: 80,
         erasingSpeed: 100,
