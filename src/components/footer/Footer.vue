@@ -9,7 +9,7 @@
     <div class="item" title='Twitter'>
       <a href="https://twitter.larien.dev" target="_blank"><Twitter/></a>
     </div>
-    <p>© 2021 Lauren Ferreira</p>
+    <p>© {{ new Date().getFullYear() }} Lauren Ferreira</p>
   </section> 
 </template>
 
