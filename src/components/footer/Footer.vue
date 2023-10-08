@@ -1,5 +1,6 @@
 <template>
   <section id="footer">
+    <div class="social">
     <div class="item" title='GitHub'>
       <a href="https://github.larien.dev" target="_blank"><GitHub/></a>
     </div>
@@ -9,7 +10,10 @@
     <div class="item" title='Twitter'>
       <a href="https://twitter.larien.dev" target="_blank"><Twitter/></a>
     </div>
-    <p>© {{ new Date().getFullYear() }} Lauren Ferreira</p>
+  </div>
+    <div class="copyright">
+      <p>© {{ currentYear }} Lauren Ferreira</p>
+    </div>
   </section> 
 </template>
 
@@ -19,6 +23,11 @@ import LinkedIn from '../social/LinkedIn.vue';
 import Twitter from '../social/Twitter.vue';
 
 export default {
+  data() {
+    return {
+      currentYear: new Date().getFullYear(),
+    };
+  },
   components: {
     GitHub,
     LinkedIn,
@@ -31,8 +40,15 @@ export default {
 #footer {
   margin-top: auto;
   height: 100px;
+}
+
+.social {
+  margin-top: auto;
+  height: 70px;
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .item {
@@ -41,13 +57,11 @@ export default {
   margin: 10px;
 }
 
-p {
-  position: absolute;
-  bottom: 0px;
-  margin: 10px;
-  left: 0px;
+.copyright {
   color: rgb(190, 190, 190);
   font-size: 70%;
   cursor: default;
+  position: absolute;
+  padding: 10px;
 }
 </style>

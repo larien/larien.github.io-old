@@ -29,6 +29,7 @@ export default {
     border-radius: 10px;
     cursor: pointer;
     transition: 0.3s;
+    margin-top:10px;
 }
 .button:hover {
     background-color: #00acd7;
