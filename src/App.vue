@@ -36,7 +36,7 @@ html {
 }
 
 /*  http://meyerweb.com/eric/tools/css/reset/ dd
-   v2.0 | 20110126
+   v2.0 | 20110126 d 
    License: none (public domain)
 */
 
