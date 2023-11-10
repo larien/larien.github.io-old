@@ -29,5 +29,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN_SECRET }}
           WITH_V: true
           DRY_RUN: ${{ github.event.pull_request.merged == false }}
-          RELEASE_BRANCHES: dev
+          RELEASE_BRANCHES: main
   
