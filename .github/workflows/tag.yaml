@@ -7,10 +7,9 @@ concurrency:
   group: larien-dev-${{ github.ref }}
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+  push:
     branches:
-    - dev
+    - main
 
 jobs:
   build-image:
