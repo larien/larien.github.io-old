@@ -9,7 +9,7 @@
     <div class="item" title='Twitter'>
       <a href="https://twitter.larien.dev" target="_blank"><Twitter/></a>
     </div>
-    <p>© {{ new Date().getFullYear() }} Lauren Ferreira</p>
+    <p>© {{ currentYear() }} Lauren Ferreira</p>
   </section> 
 </template>
 
@@ -23,6 +23,11 @@ export default {
     GitHub,
     LinkedIn,
     Twitter,
+  },
+  methods: {
+    currentYear: function () {
+      return new Date().getFullYear()
+    }
   }
 }
 </script>
